@@ -15,19 +15,19 @@ class Circle:
 
 print("Name : Jeremy Von San Juan")
 print("School : FEU TECH")
-print("MACHINE PROBLEM NUMBER : 1")
+print("MACHINE PROBLEM NUMBER : 2")
 
 
 radius = float(input("enter the radius of the circle: "))
-areaC = Circle(radius)
-periC = Circle(radius)
+Circle(radius)
+Circle(radius)
 
 if radius <= 0:
     print ("The number is not a positive integer")
 elif radius % 1 != 0:
     print ("The number is not a whole number")
 else:
-    print(f"The area of the circle is: {areaC.area()}")
-    print(f"the perimeter of the circle is : {periC.perim()}")
+    print(f"The area of the circle is: {Circle(radius).area()}")
+    print(f"the perimeter of the circle is : {Circle(radius).perim()}")
 
 
