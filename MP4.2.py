@@ -1,6 +1,6 @@
 #Name : Jeremy Von San Juan
 #School : FEU TECH
-#MACHINE PROBLEM NUMBER : 1
+#MACHINE PROBLEM NUMBER : 2
 
 
 class Circle:
